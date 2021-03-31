@@ -1,4 +1,7 @@
-fish();
+$(window).bind('hashchange', function() {
+  fish();
+});
+
 function fish() {
     return (
       $("#footer-wrap").css({
