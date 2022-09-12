@@ -1,52 +1,82 @@
-import { navbar } from "vuepress-theme-hope";
+import { navbar } from 'vuepress-theme-hope'
 
 export default navbar([
-  "/",
-  "/home",
-  { text: "使用指南", icon: "creative", link: "/guide/" },
+  { text: '主页', link: '/', icon: 'home' },
   {
-    text: "博文",
-    icon: "edit",
-    prefix: "/posts/",
+    text: '前端',
+    icon: 'overflow',
     children: [
       {
-        text: "文章 1-4",
-        icon: "edit",
-        prefix: "article/",
+        text: '基石',
         children: [
-          { text: "文章 1", icon: "edit", link: "article1" },
-          { text: "文章 2", icon: "edit", link: "article2" },
-          "article3",
-          "article4",
-        ],
+          {
+            text: 'html',
+            link: '/web/html/'
+          },
+          { text: 'css', link: '/web/css/' },
+          { text: 'javascript', link: '/web/javascript/' },
+          { text: 'typescript', link: '/web/typescript/' }
+        ]
       },
       {
-        text: "文章 5-12",
-        icon: "edit",
+        text: '框架',
         children: [
-          {
-            text: "文章 5",
-            icon: "edit",
-            link: "article/article5",
-          },
-          {
-            text: "文章 6",
-            icon: "edit",
-            link: "article/article6",
-          },
-          "article/article7",
-          "article/article8",
-        ],
-      },
-      { text: "文章 9", icon: "edit", link: "article9" },
-      { text: "文章 10", icon: "edit", link: "article10" },
-      "article11",
-      "article12",
-    ],
+          { text: 'vue3.0', link: '/web/vue3/' },
+          { text: 'vue2.0', link: '/web/vue/' },
+          { text: 'react', link: '/web/react/' }
+        ]
+      }
+    ]
   },
   {
-    text: "主题文档",
-    icon: "note",
-    link: "https://vuepress-theme-hope.github.io/v2/zh/",
+    text: '移动端',
+    icon: 'mobile',
+    children: [
+      { text: '小程序', link: '/miniProgram/' },
+      { text: 'uniapp', link: '/uniapp/' }
+    ]
   },
-]);
+  {
+    text: '进阶',
+    icon: 'hot',
+    children: [
+      {
+        text: '后端',
+        children: [
+          {
+            text: 'node',
+            link: '/node/',
+            icon: 'node'
+          }
+        ]
+      },
+      {
+        text: '打包',
+        children: [
+          { text: 'vite', link: '/vite/' },
+          { text: 'webpack', link: '/webpack/' }
+        ]
+      },
+      { text: '设计模式', link: '/model/' }
+    ]
+  },
+  {
+    text: '计算机网络',
+    icon: 'computer',
+    children: [
+      { text: 'http', link: '/http/' },
+      { text: 'https', link: '/https/' }
+    ]
+  },
+  {
+    text: '更多',
+    icon: 'more',
+    children: [
+      { text: 'linux', link: '/linux/' },
+      { text: 'docker', link: '/docker/' },
+      { text: '面试问题', link: '/review/' }
+    ]
+  },
+  { text: 'Git', link: '/git/', icon: 'git' },
+  { text: 'GitHub', link: 'https://github.com/Chinvoxel' }
+])

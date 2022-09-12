@@ -1,0 +1,24 @@
+//重置
+html[data-theme='dark'],
+html[data-theme='light'] {
+  .navbar .logo,
+  .blogger-avatar,
+  .hero-image {
+    border-radius: 50%;
+  }
+  .navbar {
+    box-shadow: none;
+  }
+  .blog-hero {
+    .mask {
+      background: url('/banner.jpeg') center / cover no-repeat !important;
+    }
+  }
+  .search-box input {
+    border-color: #3eaf7c;
+  }
+  .footer-wrapper {
+    display: flex;
+    justify-content: center;
+  }
+}

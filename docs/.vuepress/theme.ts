@@ -1,18 +1,18 @@
 import { hopeTheme } from 'vuepress-theme-hope'
+
 import navbar from './navbar.js'
 import sidebar from './sidebar.js'
 
 export default hopeTheme({
-  hostname: 'https://vuepress-theme-hope-v2-demo.mrhope.site',
+  logo: '/logo.png',
+  hostname: 'https://chinvoxel.github.io',
 
   author: {
-    name: 'Mr.Hope',
-    url: 'https://mrhope.site'
+    name: 'Chinvoxel',
+    url: 'https://chinvoxel.github.io'
   },
 
   iconAssets: 'iconfont',
-
-  logo: '/logo.svg',
 
   repo: 'vuepress-theme-hope/vuepress-theme-hope',
 
@@ -24,7 +24,7 @@ export default hopeTheme({
   // sidebar
   sidebar: sidebar,
 
-  footer: '默认页脚',
+  footer: '',
 
   displayFooter: true,
 
@@ -34,35 +34,9 @@ export default hopeTheme({
     description: '一个前端开发者',
     intro: '/intro.html',
     medias: {
-      Baidu: 'https://example.com',
-      Bitbucket: 'https://example.com',
-      Dingding: 'https://example.com',
-      Discord: 'https://example.com',
-      Dribbble: 'https://example.com',
-      Email: 'https://example.com',
-      Evernote: 'https://example.com',
-      Facebook: 'https://example.com',
-      Flipboard: 'https://example.com',
-      Gitee: 'https://example.com',
-      GitHub: 'https://example.com',
-      Gitlab: 'https://example.com',
-      Gmail: 'https://example.com',
-      Instagram: 'https://example.com',
-      Lines: 'https://example.com',
-      Linkedin: 'https://example.com',
-      Pinterest: 'https://example.com',
-      Pocket: 'https://example.com',
-      QQ: 'https://example.com',
-      Qzone: 'https://example.com',
-      Reddit: 'https://example.com',
-      Rss: 'https://example.com',
-      Steam: 'https://example.com',
-      Twitter: 'https://example.com',
-      Wechat: 'https://example.com',
-      Weibo: 'https://example.com',
-      Whatsapp: 'https://example.com',
-      Youtube: 'https://example.com',
-      Zhihu: 'https://example.com'
+      GitHub: 'https://github.com/Chinvoxel',
+      Zhihu: 'https://www.zhihu.com/people/trustme-58',
+      Dingding: 'https://juejin.cn/user/1996368848364616?utm_source=gold_browser_extension'
     }
   },
 
@@ -85,22 +59,10 @@ export default hopeTheme({
        * Using Giscus
        */
       provider: 'Giscus',
-      repo: 'vuepress-theme-hope/giscus-discussions',
-      repoId: 'R_kgDOG_Pt2A',
+      repo: 'Chinvoxel/comment',
+      repoId: 'R_kgDOH9hZSg',
       category: 'Announcements',
-      categoryId: 'DIC_kwDOG_Pt2M4COD69'
-
-      /**
-       * Using Twikoo
-       */
-      // provider: "Twikoo",
-      // envId: "https://twikoo.ccknbc.vercel.app",
-
-      /**
-       * Using Waline
-       */
-      // provider: "Waline",
-      // serverURL: "https://vuepress-theme-hope-comment.vercel.app",
+      categoryId: 'DIC_kwDOH9hZSs4CRUpZ'
     },
 
     mdEnhance: {

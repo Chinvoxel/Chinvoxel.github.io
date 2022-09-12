@@ -2,14 +2,18 @@ lockfileVersion: 5.3
 
 specifiers:
   '@vuepress/client': 2.0.0-beta.51
+  '@vuepress/plugin-search': 2.0.0-beta.51
   vue: ^3.2.27
   vuepress: 2.0.0-beta.51
+  vuepress-plugin-copyright2: 2.0.0-beta.97
   vuepress-theme-hope: 2.0.0-beta.97
 
 devDependencies:
   '@vuepress/client': registry.npmmirror.com/@vuepress/client/2.0.0-beta.51
+  '@vuepress/plugin-search': registry.npmmirror.com/@vuepress/plugin-search/2.0.0-beta.51
   vue: registry.npmmirror.com/vue/3.2.38
   vuepress: registry.npmmirror.com/vuepress/2.0.0-beta.51_b16ae4cd540e4a0864fce4166a6dee4d
+  vuepress-plugin-copyright2: registry.npmmirror.com/vuepress-plugin-copyright2/2.0.0-beta.97
   vuepress-theme-hope: registry.npmmirror.com/vuepress-theme-hope/2.0.0-beta.97
 
 packages:
@@ -2186,6 +2190,22 @@ packages:
     dependencies:
       '@vuepress/core': registry.npmmirror.com/@vuepress/core/2.0.0-beta.51
       prismjs: registry.npmmirror.com/prismjs/1.29.0
+    transitivePeerDependencies:
+      - supports-color
+    dev: true
+
+  registry.npmmirror.com/@vuepress/plugin-search/2.0.0-beta.51:
+    resolution: {integrity: sha512-LUKD1WOhesfbjRmy+3wPz27ZOat5sEL7nRVFrmoZNGjqGoUSuh/AFnd04z2utVEoceeuWWOluVmpoYKhxJVMFQ==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@vuepress/plugin-search/-/plugin-search-2.0.0-beta.51.tgz}
+    name: '@vuepress/plugin-search'
+    version: 2.0.0-beta.51
+    dependencies:
+      '@vuepress/client': registry.npmmirror.com/@vuepress/client/2.0.0-beta.51
+      '@vuepress/core': registry.npmmirror.com/@vuepress/core/2.0.0-beta.51
+      '@vuepress/shared': registry.npmmirror.com/@vuepress/shared/2.0.0-beta.51
+      '@vuepress/utils': registry.npmmirror.com/@vuepress/utils/2.0.0-beta.51
+      chokidar: registry.npmmirror.com/chokidar/3.5.3
+      vue: registry.npmmirror.com/vue/3.2.38
+      vue-router: registry.npmmirror.com/vue-router/4.1.5_vue@3.2.38
     transitivePeerDependencies:
       - supports-color
     dev: true

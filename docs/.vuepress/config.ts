@@ -1,4 +1,7 @@
 import { defineUserConfig } from 'vuepress'
+import { searchPlugin } from '@vuepress/plugin-search'
+import { copyrightPlugin } from 'vuepress-plugin-copyright2'
+
 import theme from './theme.js'
 
 export default defineUserConfig({
@@ -8,5 +11,9 @@ export default defineUserConfig({
 
   base: '/',
 
-  theme
+  theme,
+  plugins: [
+    searchPlugin({}), // 搜索
+    copyrightPlugin({}) //版权
+  ]
 })
