@@ -1,0 +1,1 @@
+import{_ as e}from"./_plugin-vue_export-helper.cdc0426e.js";import{o as r,c as t}from"./app.46d23efa.js";const c={};function o(_,s){return r(),t("div")}const a=e(c,[["render",o],["__file","xsrf.html.vue"]]);export{a as default};
