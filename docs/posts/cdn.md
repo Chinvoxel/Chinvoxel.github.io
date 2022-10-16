@@ -1,15 +1,14 @@
 ---
+title: CDN是什么
 icon: edit
-date: 2022-01-05
+date: 2022-09-14
 category:
-  - CategoryA
-  - CategoryB
+  - tip
 tag:
-  - tag A
-  - tag B
+  - CDN
 ---
 
-# 文章 5
+# CDN是什么
 
 ## 标题 2
 

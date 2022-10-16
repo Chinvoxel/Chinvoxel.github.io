@@ -13,8 +13,8 @@ tagline: 逝者如斯夫，不舍昼夜。
 #     desc: 项目详细描述
 #     link: https://你的项目链接
 
-
-footer: ''
+copyright: false
+footer: '逝者如斯夫，不舍昼夜'
 ---
 
 

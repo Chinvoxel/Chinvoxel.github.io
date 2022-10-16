@@ -1,7 +1,7 @@
 import { hopeTheme } from 'vuepress-theme-hope'
 
 import navbar from './navbar.js'
-import sidebar from './sidebar.js'
+import sidebar from './sidebar/index.js'
 
 export default hopeTheme({
   logo: '/logo.png',
@@ -14,9 +14,7 @@ export default hopeTheme({
 
   iconAssets: 'iconfont',
 
-  repo: 'vuepress-theme-hope/vuepress-theme-hope',
-
-  docsDir: 'demo/src',
+  repo: 'https://github.com/Chinvoxel/Chinvoxel.github.io',
 
   // navbar
   navbar: navbar,
@@ -35,14 +33,7 @@ export default hopeTheme({
     intro: '/intro.html',
     medias: {
       GitHub: 'https://github.com/Chinvoxel',
-      Zhihu: 'https://www.zhihu.com/people/trustme-58',
-      Dingding: 'https://juejin.cn/user/1996368848364616?utm_source=gold_browser_extension'
-    }
-  },
-
-  encrypt: {
-    config: {
-      '/guide/encrypt.html': ['1234']
+      Zhihu: 'https://www.zhihu.com/people/trustme-58'
     }
   },
 

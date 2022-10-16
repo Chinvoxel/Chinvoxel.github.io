@@ -10,20 +10,20 @@ export default navbar([
         text: '基石',
         children: [
           {
-            text: 'html',
+            text: 'HTML',
             link: '/web/html/'
           },
-          { text: 'css', link: '/web/css/' },
-          { text: 'javascript', link: '/web/javascript/' },
-          { text: 'typescript', link: '/web/typescript/' }
+          { text: 'CSS', link: '/web/css/' },
+          { text: 'JS', link: '/web/js/' },
+          { text: 'TS', link: '/web/ts/' }
         ]
       },
       {
         text: '框架',
         children: [
-          { text: 'vue3.0', link: '/web/vue3/' },
-          { text: 'vue2.0', link: '/web/vue/' },
-          { text: 'react', link: '/web/react/' }
+          { text: 'Vue3.0', link: '/web/Vue3/' },
+          { text: 'Vue2.0', link: '/web/Vue/' },
+          { text: 'React', link: '/web/React/' }
         ]
       }
     ]
@@ -61,22 +61,22 @@ export default navbar([
     ]
   },
   {
-    text: '计算机网络',
+    text: '计算机',
     icon: 'computer',
-    children: [
-      { text: 'http', link: '/http/' },
-      { text: 'https', link: '/https/' }
-    ]
+    link: '/computer'
   },
+  { text: 'Git', link: '/git/', icon: 'git' },
+  { text: '阅读', link: '/book/', icon: 'repo' },
+  { text: '开发', link: '/develop/', icon: 'launch' },
   {
     text: '更多',
     icon: 'more',
+    link: '/more',
     children: [
       { text: 'linux', link: '/linux/' },
       { text: 'docker', link: '/docker/' },
       { text: '面试问题', link: '/review/' }
     ]
   },
-  { text: 'Git', link: '/git/', icon: 'git' },
   { text: 'GitHub', link: 'https://github.com/Chinvoxel' }
 ])

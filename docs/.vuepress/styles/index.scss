@@ -14,11 +14,15 @@ html[data-theme='light'] {
       background: url('/banner.jpeg') center / cover no-repeat !important;
     }
   }
-  .search-box input {
-    border-color: #3eaf7c;
-  }
   .footer-wrapper {
     display: flex;
     justify-content: center;
+  }
+  // 搜索框
+  .navbar-right {
+    flex-direction: row-reverse;
+    .search-box > input {
+      border-color: #3eaf7c;
+    }
   }
 }
