@@ -66,17 +66,16 @@ export default navbar([
     link: '/computer'
   },
   { text: 'Git', link: '/git/', icon: 'git' },
-  { text: '阅读', link: '/book/', icon: 'repo' },
   { text: '开发', link: '/develop/', icon: 'launch' },
   {
     text: '更多',
     icon: 'more',
-    link: '/more',
     children: [
       { text: 'linux', link: '/linux/' },
       { text: 'docker', link: '/docker/' },
       { text: '面试问题', link: '/review/' }
     ]
   },
+  { text: '阅读', link: '/book/', icon: 'repo' },
   { text: 'GitHub', link: 'https://github.com/Chinvoxel' }
 ])
